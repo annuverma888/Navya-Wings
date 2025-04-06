@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Business Guidance for Girls</title>
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000022, #000044); /* Deep blue background */
+  color: #ddd; /* Light text for contrast */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  position: relative; /* For star background positioning */
+}
+
+/* Star background animation */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 2px, transparent 2px),
+              radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px, 30px 30px;
+  animation: stars 10s linear infinite;
+  z-index: -1;
+}
+
+@keyframes stars {
+  0% { background-position: 0 0, 0 0; }
+  100% { background-position: 50px 50px, 30px 30px; }
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0;
+  color: #87CEEB; /* Light blue title */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.business-topic {
+  border: 1px solid #444;
+  padding: 30px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black box */
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.business-topic:hover {
+  transform: translateY(-5px);
+}
+
+.business-topic img {
+  max-width: 200px;
+  height: auto;
+  margin-right: 30px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.business-topic h2 {
+  margin-top: 0;
+  color: #87CEEB;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.resources {
+  margin-top: 20px;
+}
+
+.resources a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 15px;
+  background: #007bff; /* Blue button */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.resources a:hover {
+  background: #0056b3;
+}
+
+a {
+  color: #87CEEB;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  text-align: center;
+  margin: 30px 0;
+}
+</style>
+</head>
+<body>
+
+<h1>Business Guidance for Girls</h1>
+
+<div class="business-topic">
+  <img src="c:\Users\annu3\OneDrive\Pictures\tailoring.png" alt="Tailoring Business">
+  <div>
+    <h2>Starting a Small Tailoring Business</h2>
+    <p>Learn about the tools, materials, and basic techniques needed to start a tailoring business. Get tips on marketing and managing your finances.</p>
+    <div class="resources">
+      <a href="https://www.youtube.com/watch?v=77sM60e8x18" target="_blank">Tailoring Tutorial</a>
+      <a href="https://www.sba.gov/starting-business/write-your-business-plan" target="_blank">Small Business Resource</a>
+    </div>
+  </div>
+</div>
+
+<div class="business-topic">
+  <img src="C:\Users\annu3\OneDrive\Pictures\feeding..jpg" alt="Poultry Farming">
+  <div>
+    <h2>Poultry Farming Basics</h2>
+    <p>Information about setting up a small poultry farm, including choosing breeds, feeding, and disease prevention. Learn how to market your products.</p>
+    <div class="resources">
+      <a href="https://www.thepoultrysite.com/articles/5-steps-to-starting-a-successful-poultry-farm" target="_blank">Poultry Farming Guide</a>
+      <a href="https://www.usda.gov/topics/farming" target="_blank">Government Agriculture Website</a>
+    </div>
+  </div>
+</div>
+
+<div class="business-topic">
+  <img src="C:\Users\annu3\OneDrive\Pictures\start business.jpg" alt="Starting a Small Business">
+  <div>
+    <h2>Starting a Small Business</h2>
+    <p>Learn the basics of starting a small business, including writing a business plan, obtaining funding, and managing your finances.</p>
+    <div class="resources">
+      <a href="https://www.sba.gov/starting-business/write-your-business-plan" target="_blank">SBA Business Plan Template</a>
+      <a href="https://www.score.org/blog/how-start-small-business" target="_blank">Score Blog</a>
+    </div>
+  </div>
+</div>
+
+<div class="business-topic">
+  <img src="C:\Users\annu3\OneDrive\Pictures\marketing.jpg" alt="Marketing Your Business">
+  <div>
+    <h2>Marketing Your Business</h2>
+    <p>Learn how to market your business effectively, including social media marketing, content marketing, and search engine optimization.</p>
+    <div class="resources">
+      <a href="https://blog.hubspot.com/marketing" target="_blank">HubSpot Marketing Blog</a>
+      <a href="https://www.socialmediaexaminer.com/" target="_blank">Social Media Examiner</a>
+    </div>
+  </div>
+</div>
+
+<div class="business-topic">
+  <img src="C:\Users\annu3\OneDrive\Pictures\finance.jpg" alt="Managing Your Finances">
+  <div>
+    <h2>Managing Your Finances</h2>
+    <p>Learn how to manage your finances effectively, including budgeting, saving, and investing.</p>
+    <div class="resources">
+      <a href="https://www.investopedia.com/personal-finance-5184568" target="_blank">Investopedia Personal Finance</a>
+      <a href="https://www.nerdwallet.com/blog/personal-finance/" target="_blank">NerdWallet Personal Finance Blog</a>
+    </div>
+  </div>
+</div>
+
+<nav>
+  <a href="/">Home</a> | <a href="/health">Health Information</a> | <a href="/career">Career Guidance</a>
+</nav>
+
+</body>
+</html>
