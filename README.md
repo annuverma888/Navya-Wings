@@ -10,8 +10,8 @@ Komal Yadav
 
 # Table of Contents
 A. It provide health  solution,business and career options and personal hygiene .                
-             B. it will empower rural girl child by educating them through various  aspects.          
-  C.  It will provide  engaging and interactive material.
+             B. It will empower rural girl child by educating them through various  aspects.          
+  C.  It will provide engaging and interactive material.
 
 # Inspiration
 In recent times, Informative content and depiction through images which provide much easier approach for a particular topic
